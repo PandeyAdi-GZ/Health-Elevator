@@ -1,0 +1,14 @@
+.map {
+    border: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scrollbar-width: none;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

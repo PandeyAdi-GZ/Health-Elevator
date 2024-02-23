@@ -1,0 +1,13 @@
+.card {
+	z-index: 999;
+	/* Lower z-index than the navbar */
+	position: relative;
+	/* or position: absolute; depending on your layout */
+	margin-top: 20px;
+	/* Adjust the margin as needed to create space */
+}
+
+.navbar {
+	z-index: 1000;
+	/* Adjust the value as needed */
+}

@@ -1,0 +1,26 @@
+.head-about {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+	& h1 {
+		margin: 2rem auto;
+		color: wheat !important;
+	}
+}
+
+a:hover {
+	color: white;
+	font-weight: bolder;
+
+}
+
+.profs-about {
+	display: inline-block;
+	margin: 1.5rem 3rem;
+
+	& img {
+		width: 15rem;
+	}
+
+}

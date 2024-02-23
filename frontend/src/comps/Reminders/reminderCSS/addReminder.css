@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #0074D9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+/* .navSafeHeight {
+	line-height: 4.7rem;
+} */
+
+.containerAdd {
+	background-color: white;
+	box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.5);
+	padding: 2rem;
+	border-radius: 1rem;
+	font-family: "Calibri", sans-serif;
+	text-align: center;
+	/* Limit containerAdd width for responsiveness */
+	min-width: none;
+	width: 40rem;
+	max-width: 50rem;
+	/* Center the containerAdd */
+	/* margin: 1rem; */
+	margin: 1.5rem auto;
+}
+
+.SetARem {
+	margin-bottom: 2rem;
+	color: #333;
+}
+
+.addRemForm {
+	line-height: 1rem;
+	padding: 0 2.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+}
+
+label {
+	margin-bottom: 5px;
+	color: #333;
+}
+
+input[type="number"],
+input[type="text"],
+textarea {
+	padding: 0.8rem;
+	margin: 0.5rem 0;
+	border: 0.1rem solid #ccc;
+	border-radius: 0.5rem;
+	width: 100%;
+}
+
+input[type="tel"] {
+	padding: 0.8rem;
+	margin: 0.5rem 0;
+	border: 0.1rem solid #ccc;
+	border-radius: 0.5rem;
+}
+
+input[type="date"],
+input[type="time"] {
+	padding: 0.5rem;
+	margin: 0.5rem 0;
+	border: 0.1rem solid #ccc;
+	border-radius: 0.5rem;
+}
+
+.dnt div {
+	display: inline-block;
+}
+
+.msg_desc {
+	align-self: flex-start;
+}
+
+button {
+	padding: 1rem 2rem;
+	background-color: #0074D9;
+	color: white;
+	border: none;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #0056a7;
+}
+
+.req {
+	color: red;
+}
+
+textarea {
+	height: 10rem;
+	width: 100%;
+	resize: none;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+@media (max-width: 700px) {
+	.containerAdd {
+		width: calc(90%);
+	}
+}
+
+@media (max-width: 580px) {
+	.containerAdd {
+		width: calc(85%);
+	}
+}

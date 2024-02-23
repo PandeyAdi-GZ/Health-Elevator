@@ -1,0 +1,33 @@
+.app-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	/* max-width: 95vw; */
+}
+
+.reminder-form {
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	border-right: 1px solid #ccc;
+}
+
+.reminders-list {
+	flex: 30;
+	padding: 0 115px;
+}
+
+@media (max-width: 1300px) {
+	.app-container {
+		display: flex;
+		flex-direction: column;
+		/* width: calc(50%-2rem); */
+	}
+	.reminder-form {
+		border-right: none ;
+	}
+	.reminders-list .container-show {
+		width: calc(20%);
+	}
+}
